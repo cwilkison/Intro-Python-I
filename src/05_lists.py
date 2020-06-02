@@ -33,4 +33,5 @@ print(len(x))
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
 
-print(sum(x) * 1000)
+for num in x:
+    print(num * 1000)

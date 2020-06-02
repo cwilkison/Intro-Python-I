@@ -11,8 +11,8 @@ for more info regarding list comprehensions.
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
 y = []
-for x in range(5):
-    y.append(x+1)
+for x in range(1,6):
+    y.append(x)
 
 print (y)
 
